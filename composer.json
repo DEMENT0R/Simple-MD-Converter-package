@@ -1,0 +1,24 @@
+{
+    "name": "dement0r/md-converter",
+    "description": "A simple Markdown Converter composer package",
+    "keywords": ["php", "markdown", "converter"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dement0r",
+            "email": "maxim@bezrukavnikov.ru",
+            "homepage": "https://bezrukavnikov.ru",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "dement0r\\MDConverter\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
